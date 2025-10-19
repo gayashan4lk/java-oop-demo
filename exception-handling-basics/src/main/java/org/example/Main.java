@@ -29,7 +29,13 @@ public class Main {
 //        ArrayOps.mockArrayOperation();
 
         // File and Scanner Exceptions
-        FileOps.readFile();
+//        FileOps.readFile();
+
+        try{
+            UserOps.getUser();
+        } catch (Exception e){
+            System.out.println("Exception: " + e + "\nMessage: " + e.getMessage() + "\nStackTrace: " + Arrays.toString(e.getStackTrace()));
+        }
 
         System.out.println("the rest of the program is fine..");
     }
