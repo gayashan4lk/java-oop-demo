@@ -6,8 +6,6 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-
         // ArithmeticException
         /*var result = MathOps.divide(10, 0);
         System.out.println(result);*/
@@ -20,17 +18,20 @@ public class Main {
             System.out.println("Exception type: " + e.getClass());
         }*/
 
-        try{
+        /*try{
             var result3 = MathOps.multiply();
             System.out.println("Result3 = " + result3);
         } catch (Exception e){
             System.out.println("Exception: " + e + "\nMessage: " + e.getMessage() + "\nStackTrace: " + Arrays.toString(e.getStackTrace()));
-        }
-
-
+        }*/
 
         // Array Exception
 //        ArrayOps.mockArrayOperation();
+
+        // File and Scanner Exceptions
+        FileOps.readFile();
+
+        System.out.println("the rest of the program is fine..");
     }
 }
 

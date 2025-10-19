@@ -1,0 +1,18 @@
+✅ Maven Advantages:
+Simple and predictable — strong conventions reduce confusion.
+Widespread adoption — more documentation, community support.
+Great for enterprise projects that prefer stability.
+Easy integration with IDEs like IntelliJ, Eclipse.
+❌ Maven Drawbacks:
+XML syntax is verbose and not very flexible.
+Harder to create custom build logic.
+Slower build times.
+✅ Gradle Advantages:
+Faster — supports incremental builds, caching, and parallel execution.
+Flexible and modern — you can mix declarative and scripted logic.
+Supports both Java and Android (the default for Android).
+Readable build scripts (especially with Kotlin DSL).
+❌ Gradle Drawbacks:
+More complex for beginners.
+Custom build logic can get hard to debug.
+Less predictable than Maven if not well-structured.
