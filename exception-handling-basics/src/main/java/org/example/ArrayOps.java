@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Arrays;
-
 public class ArrayOps {
     public static void mockArrayOperation() {
         try {
